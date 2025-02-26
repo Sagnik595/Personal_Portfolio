@@ -1,0 +1,435 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #081418;
+}
+
+
+.body1{
+    background-color: #081418;
+    height: 550px;
+
+}
+
+
+.navbar
+{
+    background-color: #081418;
+    display: flex;
+    margin-left: 22px;
+    margin-top: 18px;
+}
+
+
+h2{
+    margin-right: 740px;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+}
+
+
+.abc{
+    color: #6da1e3;
+}
+
+.xyz{
+    color: white;
+}
+
+.navelements{
+    display: flex;
+    color: white;
+    gap: 3rem;
+    margin-top: 10px;
+    font-family: "Montserrat", serif;
+    font-size: 15px;
+}
+
+
+
+
+h1{
+    font-family: "Montserrat", serif;
+    margin-left: 100px;
+    color: white;
+    margin-top: 120px;
+}
+
+
+h3{
+    margin-left: 100px;
+    margin-top: 25px;
+    color: #6da1e3;
+    font-size: 20px;
+    font-family: "Montserrat", serif;
+}
+
+
+
+.textdes{
+    color: white;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-family: "Work Sans", serif;
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+.but{
+    display: flex;
+}
+
+.but1{
+    background-color: #3fc7f1;
+    color: black;
+    font-family: sans-serif;
+    border: 2px solid transparent;
+    border-radius: 17px 17px 17px 17px;
+    width: 75px;
+    height: 35px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 13px;
+    box-shadow: 0 0 15px rgba(63, 199, 241,0.5);
+    margin-right: 50px;
+    transition: 0.5s ease;
+}
+
+.but1:hover{
+    border: 2px solid #6da1e3;
+    background-color: #081418;
+    color: #3fc7f1;
+    box-shadow: 0 0 15px rgba(63, 199, 241,0.8);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+
+.b{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #3fc7f1;
+    margin-right: 15px;
+    color: #3fc7f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+
+.b:hover{
+    background-color: #3fc7f1;
+    box-shadow: 0 0 15px rgb(63,199,241,0.6);
+    color:black;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+
+.maincontent{
+    display: flex;
+    gap: 15rem;
+}
+
+
+
+.mainpic{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 1.8px solid #3fc7f1;
+    margin-top: 100px;
+    margin-left: 60px;
+    box-shadow: 0 0 15px rgba(63, 199, 241,0.5);
+    background-image: url(WhatsApp\ Image\ 2025-02-14\ at\ 09.45.25_156cfa7e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.mainpic:hover{
+    height: 305px;
+    width: 305px;
+    margin-top: 95px;
+    box-shadow: 0 0 15px rgba(63, 199, 241,1);
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ele1{
+    color: #3fc7f1;
+    text-decoration: underline;
+}
+
+
+.e{
+    transition: 0.7s ease;
+}
+.e:hover{
+    color: #3fc7f1;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.7s ease;
+}
+
+
+/* Next is the about me section of the page */
+
+
+
+.about{
+    background-color: #0D1E24;
+    height: 550px;
+}
+.head{
+    color: white;
+    font-size: 30px;
+    margin-left: 580px;
+    padding-top: 120px;
+    font-weight: 700;
+    font-family: "Montserrat", serif;
+}
+
+
+
+.about2{
+    display: flex;
+    gap: 5.5rem;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+.aboutpic{
+    height: 300px;
+    width: 1900px;
+    background-image: url(p5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -50px;
+    border-radius: 10px;
+}
+
+.abouttext{
+    color: white;
+    margin-top: 5px;
+    margin-right: 95px;
+    font-family:'Courier New', Courier, monospace;
+    line-height: 1.5;
+}
+
+
+
+/* Projects section */
+
+
+
+
+.projectsection{
+    background-color: #071419;
+    height: 980px;
+}
+
+.protext{
+    font-size: 35px;
+    font-family: "Work sans", sans;
+    color: white;
+    margin-left: 550px;
+    margin-top: 70px;
+    font-weight: 600;
+}
+
+
+.projdes1{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 70px;
+}
+
+
+.p1vid{
+    width: 1800px;
+    height: 230px;
+}
+
+
+
+.p1{
+    color: white;
+    margin-left: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.p1title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 180px;
+}
+
+
+.p1des{
+    margin-right: 100px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+.projdes2{
+    display: flex;
+    margin-top: 70px;
+    margin-right: 80px;
+}
+
+.p2{
+    color: white;
+    margin-right: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 80px;
+}
+
+.p2des{
+    text-align: center;
+}
+.p2title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+
+.p2vid{
+    width: 1800px;
+    height: 230px;
+}
+
+
+.p3{
+    margin-right: 25px;
+}
+
+.p3title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 160px;
+}
+
+.p3vid{
+    margin-right: 100px;
+}
+
+
+
+/* Skills section */
+
+.skillssection{
+    height: 800px;
+    background-color: #040A0D;
+}
+
+
+.skilltitle{
+    color: white;
+    font-weight: 600;
+    font-family: "Work sans",serif;
+    font-size: 30px;
+    margin-left: 510px;
+    padding-top: 90px;
+}
+
+
+.boxcontent{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8rem;
+    margin-top: 100px;
+    margin-left: 210px;
+}
+
+.box{
+    height: 210px;
+    width: 200px;
+    background: rgba(8, 20, 24, 1.8); 
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out;
+}
+
+
+
+.logo{
+    margin-left: 35px;
+    height: 130px;
+    width: 130px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+
+.logo1{
+    background-image: url(l1.webp);
+    background-size: contain;
+    background-position-y: -18px ;
+    background-repeat: no-repeat;
+}
+
+.logo2{
+    background-image: url(l2.webp);
+    background-size: contain;
+    background-position-y: -18px ;
+    background-position-x: 20px ;
+    background-repeat: no-repeat;
+}
+.logo3{
+    background-image: url(l3.webp);
+    background-size: contain;
+    background-position-x: 9px;
+    background-repeat: no-repeat;
+}
+.logo4
+{
+    background-image: url(l4.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo5{
+    background-image: url(l5.webp);
+    background-size: contain;
+    background-position-y: -5px ;
+    background-position-x: 15px;
+    background-repeat: no-repeat;
+}
+.logo6{
+    background-image: url(l6.webp);
+    background-size: contain;
+    background-position-x: 7px;
+    background-repeat: no-repeat;
+}
+.te{
+    color: white;
+    text-align: center;
+}
+
+
+
+.box:hover{
+    box-shadow: 0 0 20px white;
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
